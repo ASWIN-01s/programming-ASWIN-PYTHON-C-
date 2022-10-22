@@ -1,0 +1,7 @@
+w='mississippi'
+count={}
+for i in w:
+    if i not in count:
+        count[i]=0
+    count[i] +=1
+print(count)
